@@ -287,8 +287,8 @@ spec:
       serviceAccountName: ks-installer
       containers:
       - name: installer
-        image: kubesphere/ks-installer:v3.3.1-rc.0
-        imagePullPolicy: "Always"
+        image: gsakun/ks-installer:release-3.3-arm64
+        imagePullPolicy: "IfNotPresent"
         resources:
           limits:
             cpu: "1"
