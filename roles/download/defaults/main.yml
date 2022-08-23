@@ -249,9 +249,9 @@ jaeger_query_tag: 1.27
 jaeger_es_cleaner_repo: "{{ base_repo }}{{ namespace_override | default('jaegertracing') }}/jaeger-es-index-cleaner"
 jaeger_es_cleaner_tag: 1.27
 kiali_operator_repo: "{{ base_repo }}{{ namespace_override | default('kubesphere') }}/kiali-operator"
-kiali_operator_tag: v1.38.1
+kiali_operator_tag: v1.42.0
 kiali_repo: "{{ base_repo }}{{ namespace_override | default('kubesphere') }}/kiali"
-kiali_tag: v1.38
+kiali_tag: v1.42.0
 
 #base:
 redis_repo: "{{ base_library_repo }}redis"
